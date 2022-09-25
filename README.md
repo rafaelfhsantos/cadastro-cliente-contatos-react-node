@@ -14,7 +14,7 @@ CREATE DATABASE cliente_contatos;
 volte no código e execute as migrações com o comando:
 
 ```
-yarn typeorm migration:generate src/migrations/createTables -d src/data-source.ts
+yarn typeorm migration:run -d src/data-source.ts
 ```
 
 Após finalizar as migrações inicie o servidor: 
