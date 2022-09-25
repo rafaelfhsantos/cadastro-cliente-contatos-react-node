@@ -5,10 +5,6 @@ import contactRouter from "./countact.routes";
 const appRoutes = (app: Express) => {
   app.use("/clients", clientRouter);
   app.use("/contacts", contactRouter);
-  // app.use("/genres", genreRouter);
-  // app.use("/login", sessionRouter);
-  // app.use("/movies", moviesRouter);
-  // app.use("/reviews", reviewsRouter);
 };
 
 export default appRoutes;

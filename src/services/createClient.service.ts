@@ -20,8 +20,6 @@ const createClientService = async ({
 
   const client = new Client();
 
-  // const hashedPassword = await hash(password, 10);
-
   client.name = name;
   client.email = email;
   client.phone = phone;
